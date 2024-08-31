@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer and Stopwatch</title>
+    <style>
+        /* Einfache CSS-Stile für die Benutzeroberfläche */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        input {
+            margin: 5px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+        }
+
+        #display {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Timer & Stopwatch</h1>
+    <div id="display">0:00</div>
+    <div>
+        <input type="number" id="minutes" placeholder="Minutes">
+        <input type="number" id="seconds" placeholder="Seconds">
+    </div>
+    <div>
+        <button id="start-timer">Start Timer</button>
+        <button id="start-stopwatch">Start Stopwatch</button>
+        <button id="stop">Stop</button>
+    </div>
+
+
+
+    <script src="renderer.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
