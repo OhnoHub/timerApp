@@ -12,3 +12,5 @@ Make sure the package.json has '
 }
 '
 in it.
+
+start the App with 'npm start'
