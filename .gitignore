@@ -1,2 +1,6 @@
 # Node modules folder
 node_modules/
+
+# other files
+.env
+*.log
